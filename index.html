@@ -3,24 +3,29 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
 </head>
 
 <body>
-    <div>
-        <div>
+    <div class="container">
+        <div class="header">
             <h1>Metric/Imperial Unit Converter</h1>
-            <div>
-                <input id="input-el" type="number">
-                <button id="convert-btn">Convert</button>
-            </div>
+            <input id="input-el" type="text">
+            <button id="convert-btn">Convert</button>
         </div>
-        <div>
-            <h3>Lenghth (Meter/Feet)</h3>
-            <p id="meter-el"></p>
-            <h3>Volume (Liters/Gallons)</h3>
-            <p id="liters-el"></p>
-            <h3>Mass (Kilograms/Pounds)</h3>
-            <p id="mass-el"></p>
+        <div class="conversion">
+            <div class="mesure">
+                <h3>Lenghth (Meter/Feet)</h3>
+                <p id="meter-el"></p>
+            </div>
+            <div class="mesure">
+                <h3>Volume (Liters/Gallons)</h3>
+                <p id="liters-el"></p>
+            </div>
+            <div class="mesure">
+                <h3>Mass (Kilograms/Pounds)</h3>
+                <p id="mass-el"></p>
+            </div>
         </div>
     </div>
 
